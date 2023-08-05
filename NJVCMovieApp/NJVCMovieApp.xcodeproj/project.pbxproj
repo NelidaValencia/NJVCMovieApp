@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2049912A61EC9D00ADA54F /* NJVCPopularMovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2049902A61EC9D00ADA54F /* NJVCPopularMovieEntity.swift */; };
+		9E2049932A61ED9900ADA54F /* NJVCPopularMoviewResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2049922A61ED9900ADA54F /* NJVCPopularMoviewResponseEntity.swift */; };
+		9E2049962A61FD2000ADA54F /* NJVCMovieCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2049952A61FD2000ADA54F /* NJVCMovieCellView.swift */; };
+		9E2049992A62017B00ADA54F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9E2049982A62017B00ADA54F /* Kingfisher */; };
+		9E7540A62A66DCE2005AF9B1 /* NJVCListOfMoviesInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540A52A66DCE2005AF9B1 /* NJVCListOfMoviesInteractorMock.swift */; };
+		9E7540A92A66F3B4005AF9B1 /* NJVCDetalOfMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540A82A66F3B4005AF9B1 /* NJVCDetalOfMovieView.swift */; };
+		9E7540AB2A66F3BF005AF9B1 /* NJVCDetalOfMoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540AA2A66F3BF005AF9B1 /* NJVCDetalOfMoviePresenter.swift */; };
+		9E7540AD2A66F3C7005AF9B1 /* NJVCDetalOfMovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540AC2A66F3C7005AF9B1 /* NJVCDetalOfMovieInteractor.swift */; };
+		9E7540AF2A66F3CF005AF9B1 /* NJVCDetalOfMovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540AE2A66F3CF005AF9B1 /* NJVCDetalOfMovieRouter.swift */; };
+		9E7540B22A66F637005AF9B1 /* NJVCDetailOfMovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540B12A66F637005AF9B1 /* NJVCDetailOfMovieEntity.swift */; };
+		9E7540B52A66F9B5005AF9B1 /* NJVCViewModelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540B42A66F9B5005AF9B1 /* NJVCViewModelDetail.swift */; };
+		9E7540B72A66FA45005AF9B1 /* NJVCMapperDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7540B62A66FA45005AF9B1 /* NJVCMapperDetail.swift */; };
+		9E9DDB822A65BE1A000B519F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DDB812A65BE1A000B519F /* ViewModel.swift */; };
+		9E9DDB842A65F585000B519F /* NJVCMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DDB832A65F585000B519F /* NJVCMapper.swift */; };
+		9EB140652A5F05D80088E93E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB140642A5F05D80088E93E /* AppDelegate.swift */; };
+		9EB140672A5F05D80088E93E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB140662A5F05D80088E93E /* SceneDelegate.swift */; };
+		9EB140692A5F05D80088E93E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB140682A5F05D80088E93E /* ViewController.swift */; };
+		9EB1406E2A5F05DA0088E93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1406D2A5F05DA0088E93E /* Assets.xcassets */; };
+		9EB140712A5F05DA0088E93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1406F2A5F05DA0088E93E /* LaunchScreen.storyboard */; };
+		9EF4EDDA2A60A67A00FCE869 /* NJVCListOfMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4EDD92A60A67A00FCE869 /* NJVCListOfMovieView.swift */; };
+		9EF4EDDC2A60A68800FCE869 /* NJVCListOfMovieInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4EDDB2A60A68800FCE869 /* NJVCListOfMovieInteractor.swift */; };
+		9EF4EDDE2A60A69000FCE869 /* NJVCListOfMoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4EDDD2A60A69000FCE869 /* NJVCListOfMoviePresenter.swift */; };
+		9EF4EDE02A60A69C00FCE869 /* NJVCListOfMovieRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF4EDDF2A60A69C00FCE869 /* NJVCListOfMovieRouter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E2049902A61EC9D00ADA54F /* NJVCPopularMovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCPopularMovieEntity.swift; sourceTree = "<group>"; };
+		9E2049922A61ED9900ADA54F /* NJVCPopularMoviewResponseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCPopularMoviewResponseEntity.swift; sourceTree = "<group>"; };
+		9E2049952A61FD2000ADA54F /* NJVCMovieCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCMovieCellView.swift; sourceTree = "<group>"; };
+		9E7540A52A66DCE2005AF9B1 /* NJVCListOfMoviesInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCListOfMoviesInteractorMock.swift; sourceTree = "<group>"; };
+		9E7540A82A66F3B4005AF9B1 /* NJVCDetalOfMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCDetalOfMovieView.swift; sourceTree = "<group>"; };
+		9E7540AA2A66F3BF005AF9B1 /* NJVCDetalOfMoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCDetalOfMoviePresenter.swift; sourceTree = "<group>"; };
+		9E7540AC2A66F3C7005AF9B1 /* NJVCDetalOfMovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCDetalOfMovieInteractor.swift; sourceTree = "<group>"; };
+		9E7540AE2A66F3CF005AF9B1 /* NJVCDetalOfMovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCDetalOfMovieRouter.swift; sourceTree = "<group>"; };
+		9E7540B12A66F637005AF9B1 /* NJVCDetailOfMovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCDetailOfMovieEntity.swift; sourceTree = "<group>"; };
+		9E7540B42A66F9B5005AF9B1 /* NJVCViewModelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCViewModelDetail.swift; sourceTree = "<group>"; };
+		9E7540B62A66FA45005AF9B1 /* NJVCMapperDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCMapperDetail.swift; sourceTree = "<group>"; };
+		9E9DDB812A65BE1A000B519F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		9E9DDB832A65F585000B519F /* NJVCMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCMapper.swift; sourceTree = "<group>"; };
+		9EB140612A5F05D80088E93E /* NJVCMovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJVCMovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB140642A5F05D80088E93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EB140662A5F05D80088E93E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9EB140682A5F05D80088E93E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EB1406D2A5F05DA0088E93E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB140702A5F05DA0088E93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EB140722A5F05DA0088E93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF4EDD92A60A67A00FCE869 /* NJVCListOfMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCListOfMovieView.swift; sourceTree = "<group>"; };
+		9EF4EDDB2A60A68800FCE869 /* NJVCListOfMovieInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCListOfMovieInteractor.swift; sourceTree = "<group>"; };
+		9EF4EDDD2A60A69000FCE869 /* NJVCListOfMoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCListOfMoviePresenter.swift; sourceTree = "<group>"; };
+		9EF4EDDF2A60A69C00FCE869 /* NJVCListOfMovieRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJVCListOfMovieRouter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB1405E2A5F05D80088E93E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2049992A62017B00ADA54F /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E20498F2A61EC7900ADA54F /* NJVCEntityListOfMovie */ = {
+			isa = PBXGroup;
+			children = (
+				9E2049902A61EC9D00ADA54F /* NJVCPopularMovieEntity.swift */,
+				9E2049922A61ED9900ADA54F /* NJVCPopularMoviewResponseEntity.swift */,
+			);
+			path = NJVCEntityListOfMovie;
+			sourceTree = "<group>";
+		};
+		9E2049942A61FCC600ADA54F /* NJVCMovieViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				9E2049952A61FD2000ADA54F /* NJVCMovieCellView.swift */,
+			);
+			path = NJVCMovieViewComponents;
+			sourceTree = "<group>";
+		};
+		9E7540A32A66DCAA005AF9B1 /* NJVCUtils */ = {
+			isa = PBXGroup;
+			children = (
+				9E7540A42A66DCB5005AF9B1 /* Mockup */,
+			);
+			path = NJVCUtils;
+			sourceTree = "<group>";
+		};
+		9E7540A42A66DCB5005AF9B1 /* Mockup */ = {
+			isa = PBXGroup;
+			children = (
+				9E7540A52A66DCE2005AF9B1 /* NJVCListOfMoviesInteractorMock.swift */,
+			);
+			path = Mockup;
+			sourceTree = "<group>";
+		};
+		9E7540A72A66F332005AF9B1 /* NJVCDetailOfMovie */ = {
+			isa = PBXGroup;
+			children = (
+				9E7540B32A66F99E005AF9B1 /* ViewModel */,
+				9E7540B02A66F410005AF9B1 /* NJVCEntityDetailOfMovie */,
+				9E7540A82A66F3B4005AF9B1 /* NJVCDetalOfMovieView.swift */,
+				9E7540AA2A66F3BF005AF9B1 /* NJVCDetalOfMoviePresenter.swift */,
+				9E7540AC2A66F3C7005AF9B1 /* NJVCDetalOfMovieInteractor.swift */,
+				9E7540AE2A66F3CF005AF9B1 /* NJVCDetalOfMovieRouter.swift */,
+			);
+			path = NJVCDetailOfMovie;
+			sourceTree = "<group>";
+		};
+		9E7540B02A66F410005AF9B1 /* NJVCEntityDetailOfMovie */ = {
+			isa = PBXGroup;
+			children = (
+				9E7540B12A66F637005AF9B1 /* NJVCDetailOfMovieEntity.swift */,
+			);
+			path = NJVCEntityDetailOfMovie;
+			sourceTree = "<group>";
+		};
+		9E7540B32A66F99E005AF9B1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E7540B42A66F9B5005AF9B1 /* NJVCViewModelDetail.swift */,
+				9E7540B62A66FA45005AF9B1 /* NJVCMapperDetail.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9E9DDB802A65BE0B000B519F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E9DDB812A65BE1A000B519F /* ViewModel.swift */,
+				9E9DDB832A65F585000B519F /* NJVCMapper.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9EB140582A5F05D80088E93E = {
+			isa = PBXGroup;
+			children = (
+				9EB140632A5F05D80088E93E /* NJVCMovieApp */,
+				9EB140622A5F05D80088E93E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB140622A5F05D80088E93E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB140612A5F05D80088E93E /* NJVCMovieApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB140632A5F05D80088E93E /* NJVCMovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				9E7540A32A66DCAA005AF9B1 /* NJVCUtils */,
+				9EF4EDD82A60A65700FCE869 /* NJVCListOfMovie */,
+				9E7540A72A66F332005AF9B1 /* NJVCDetailOfMovie */,
+				9EB140642A5F05D80088E93E /* AppDelegate.swift */,
+				9EB140662A5F05D80088E93E /* SceneDelegate.swift */,
+				9EB140682A5F05D80088E93E /* ViewController.swift */,
+				9EB1406D2A5F05DA0088E93E /* Assets.xcassets */,
+				9EB1406F2A5F05DA0088E93E /* LaunchScreen.storyboard */,
+				9EB140722A5F05DA0088E93E /* Info.plist */,
+			);
+			path = NJVCMovieApp;
+			sourceTree = "<group>";
+		};
+		9EF4EDD82A60A65700FCE869 /* NJVCListOfMovie */ = {
+			isa = PBXGroup;
+			children = (
+				9E20498F2A61EC7900ADA54F /* NJVCEntityListOfMovie */,
+				9E9DDB802A65BE0B000B519F /* ViewModel */,
+				9E2049942A61FCC600ADA54F /* NJVCMovieViewComponents */,
+				9EF4EDD92A60A67A00FCE869 /* NJVCListOfMovieView.swift */,
+				9EF4EDDB2A60A68800FCE869 /* NJVCListOfMovieInteractor.swift */,
+				9EF4EDDD2A60A69000FCE869 /* NJVCListOfMoviePresenter.swift */,
+				9EF4EDDF2A60A69C00FCE869 /* NJVCListOfMovieRouter.swift */,
+			);
+			path = NJVCListOfMovie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB140602A5F05D80088E93E /* NJVCMovieApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB140752A5F05DA0088E93E /* Build configuration list for PBXNativeTarget "NJVCMovieApp" */;
+			buildPhases = (
+				9EB1405D2A5F05D80088E93E /* Sources */,
+				9EB1405E2A5F05D80088E93E /* Frameworks */,
+				9EB1405F2A5F05D80088E93E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJVCMovieApp;
+			packageProductDependencies = (
+				9E2049982A62017B00ADA54F /* Kingfisher */,
+			);
+			productName = NJVCMovieApp;
+			productReference = 9EB140612A5F05D80088E93E /* NJVCMovieApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB140592A5F05D80088E93E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					9EB140602A5F05D80088E93E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 9EB1405C2A5F05D80088E93E /* Build configuration list for PBXProject "NJVCMovieApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB140582A5F05D80088E93E;
+			packageReferences = (
+				9E2049972A62017B00ADA54F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 9EB140622A5F05D80088E93E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB140602A5F05D80088E93E /* NJVCMovieApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB1405F2A5F05D80088E93E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB140712A5F05DA0088E93E /* LaunchScreen.storyboard in Resources */,
+				9EB1406E2A5F05DA0088E93E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB1405D2A5F05D80088E93E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2049912A61EC9D00ADA54F /* NJVCPopularMovieEntity.swift in Sources */,
+				9E7540B52A66F9B5005AF9B1 /* NJVCViewModelDetail.swift in Sources */,
+				9EB140692A5F05D80088E93E /* ViewController.swift in Sources */,
+				9E2049932A61ED9900ADA54F /* NJVCPopularMoviewResponseEntity.swift in Sources */,
+				9E7540AB2A66F3BF005AF9B1 /* NJVCDetalOfMoviePresenter.swift in Sources */,
+				9E9DDB822A65BE1A000B519F /* ViewModel.swift in Sources */,
+				9EF4EDDA2A60A67A00FCE869 /* NJVCListOfMovieView.swift in Sources */,
+				9E9DDB842A65F585000B519F /* NJVCMapper.swift in Sources */,
+				9EF4EDDC2A60A68800FCE869 /* NJVCListOfMovieInteractor.swift in Sources */,
+				9E7540A62A66DCE2005AF9B1 /* NJVCListOfMoviesInteractorMock.swift in Sources */,
+				9E7540B72A66FA45005AF9B1 /* NJVCMapperDetail.swift in Sources */,
+				9E7540A92A66F3B4005AF9B1 /* NJVCDetalOfMovieView.swift in Sources */,
+				9EF4EDDE2A60A69000FCE869 /* NJVCListOfMoviePresenter.swift in Sources */,
+				9EB140652A5F05D80088E93E /* AppDelegate.swift in Sources */,
+				9E7540B22A66F637005AF9B1 /* NJVCDetailOfMovieEntity.swift in Sources */,
+				9E7540AD2A66F3C7005AF9B1 /* NJVCDetalOfMovieInteractor.swift in Sources */,
+				9EB140672A5F05D80088E93E /* SceneDelegate.swift in Sources */,
+				9E2049962A61FD2000ADA54F /* NJVCMovieCellView.swift in Sources */,
+				9E7540AF2A66F3CF005AF9B1 /* NJVCDetalOfMovieRouter.swift in Sources */,
+				9EF4EDE02A60A69C00FCE869 /* NJVCListOfMovieRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EB1406F2A5F05DA0088E93E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB140702A5F05DA0088E93E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EB140732A5F05DA0088E93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EB140742A5F05DA0088E93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EB140762A5F05DA0088E93E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D87TH6V85Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NJVCMovieApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelidavalencia.NJVCMovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EB140772A5F05DA0088E93E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D87TH6V85Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NJVCMovieApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nelidavalencia.NJVCMovieApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB1405C2A5F05D80088E93E /* Build configuration list for PBXProject "NJVCMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB140732A5F05DA0088E93E /* Debug */,
+				9EB140742A5F05DA0088E93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB140752A5F05DA0088E93E /* Build configuration list for PBXNativeTarget "NJVCMovieApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB140762A5F05DA0088E93E /* Debug */,
+				9EB140772A5F05DA0088E93E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E2049972A62017B00ADA54F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9E2049982A62017B00ADA54F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E2049972A62017B00ADA54F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9EB140592A5F05D80088E93E /* Project object */;
+}
